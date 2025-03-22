@@ -149,9 +149,9 @@
   .nav-list {
     position: fixed;
     z-index: 1000;
-    inset: 0 0 0 34%;
-    flex-direction: column;
-    padding: min(15vh, 7rem);
+    inset: 0 0 0 24%;
+    flex-direction: column;git
+    padding:min(17vh, 5rem);
     background: hsla(123, 80%, 17%, 0.6);
     backdrop-filter: blur(2rem);
     transform: translateX(100%);
