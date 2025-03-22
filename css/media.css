@@ -150,8 +150,8 @@
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 24%;
-    flex-direction: column;git
-    padding:min(17vh, 5rem);
+    flex-direction: column;
+    padding: min(17vh, 5rem);
     background: hsla(123, 80%, 17%, 0.6);
     backdrop-filter: blur(2rem);
     transform: translateX(100%);
