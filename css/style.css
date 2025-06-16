@@ -672,7 +672,7 @@ legend {
 
 .slider-card {
   width: 100%;
-  min-height: 320px;
+  min-height: 360px;
   padding: 30px 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -889,14 +889,13 @@ legend {
 
 /* Contact */
 
-
 .contack-form {
   margin-bottom: 100px;
 
 }
 
 .form-wrapper {
-  max-width: 1140px;
+  max-width: 90%;
   background-color: #FFFBFB;
   padding: 76px 20px;
   border-radius: 10px;
@@ -931,8 +930,8 @@ legend {
 .form__input {
   display: block;
   margin-bottom: 20px;
-  max-width: 990px;
-  padding: 16px 10px;
+  max-width: 100%;
+  padding: 4px 10px;
 }
 
 .form input {
@@ -959,10 +958,11 @@ legend {
   font-weight: 500;
   font-size: 20px;
   line-height: 133%;
-  color: rgba(49, 23, 7, 0.5);
+  color:var(--dark) ;
   border: 1px solid var(--dark);
   border-radius: 10px;
   width: 540px;
+  height: 100px;
   background-color: #edeae4;
   resize: none;
   overflow-y: hidden;

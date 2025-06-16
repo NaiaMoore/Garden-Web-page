@@ -39,7 +39,6 @@ const sliderCard = document.querySelectorAll('.slider-card');
 const nextBtn = document.querySelector('.slider-button__next');
 const prevBtn = document.querySelector('.slider-button__prev ');
 let currentSlide = 0;
-console.log(sliderCard);
 
 
 function updateSlider() {
@@ -73,6 +72,8 @@ prevBtn.addEventListener('click', () =>{
     updateSlider()
   }
 })
+
+
 
 
 

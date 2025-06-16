@@ -64,19 +64,38 @@
 
       <div class="form-wrapper">
 
-        <form class="form" action="">
+        <form id="add-form" class="form" action="">
           <label class="form__label" for="">Twoje dane:</label>
-          <input class="form__input" type="text" placeholder="Imię*..... ">
-          <input class="form__input" type="text" placeholder="Adres.....">
-          <input class="form__input" type="number" placeholder="Telefon*.....">
-          <input class="form__input" type="email" placeholder="E-mail*.....">
+          <div class="input-box">
+            <input class="form__input" type="text" placeholder="Imię*... " value="">
+          </div>
+
+          <div class="input-box">
+            <input class="form__input" type="text" placeholder="Adres...">
+          </div>
+
+          <div class="input-box">
+            <input class="form__input" type="number" placeholder="Telefon*...">
+          </div>
+
+          <div class="input-box">
+            <input class="form__input" type="email" placeholder="E-mail*...">
+          </div>
+
 
           <label class="form__label" for="">Temat wiadomości:</label>
-          <input class="form__input" type="text" placeholder=" “Ogrod”, “Brukarstwo”, “Sprzątanie”.....">
+          <div class="input-box">
+            <input class="form__input" type="text" placeholder=" “Ogrod”, “Brukarstwo”, “Sprzątanie”.....">
+          </div>
+
 
           <label class="form__label" for="">Twoja wiadomość:*</label>
-          <textarea id="auto-resize" class="form__input" type="text"
-            placeholder="Opowiedz nam, czego potrzebujesz, a my zajmiemy się resztą.....">Opowiedz nam, czego potrzebujesz, a my zajmiemy się resztą.....</textarea>
+          <div class="input-box">
+            <textarea class="form__input"
+              placeholder="Opowiedz nam, czego potrzebujesz, a my zajmiemy się resztą....."></textarea>
+          </div>
+
+
 
           <div class="checkbox">
             <input class="form-checkbox" type="checkbox">
@@ -190,7 +209,8 @@
   </footer>
 
 
-  <script src="./js/script.js"></script>
+  <script defer src="./js/script.js"></script>
+  <script defer src="./js/contact.js"></script>
 </body>
 
 </html>
