@@ -149,6 +149,10 @@ legend {
 .header-logo {
   display: block;
 }
+.header-logo img{
+  width: 130px;
+  height: auto;
+}
 
 .nav-list {
   display: flex;
@@ -180,11 +184,11 @@ legend {
 }
 
 .welcome {
-  background: linear-gradient(360deg, rgba(3, 17, 28, 0.15) 20.66%, rgba(4, 36, 13, 0.15) 98.57%), url(./..//images/welcome-bg.png) no-repeat center/cover;
+  background: linear-gradient(360deg, rgba(3, 17, 28, 0.15) 20.66%, rgba(4, 36, 13, 0.15) 98.57%), url(./..//images/welcome-bg.jpg) no-repeat center/cover;
   width: 100%;
   height: 530px;
   padding-top: 20px;
-  margin-bottom: 148px
+  margin-bottom: 100px
 }
 
 .welcome-wrapper {
@@ -244,7 +248,7 @@ legend {
 .hero {
 
   height: 100%;
-  margin-bottom: 148px;
+  margin-bottom: 100px;
 }
 
 .hero-wrapper {
@@ -281,7 +285,7 @@ legend {
 }
 
 .services {
-  margin-bottom: 148px;
+  margin-bottom: 100px;
 }
 
 .services-wrapper {
@@ -332,7 +336,7 @@ legend {
 }
 
 .benefit {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .benefit-wrapper {
@@ -398,7 +402,7 @@ legend {
 }
 
 .gallery {
-  margin-bottom: 148px;
+  margin-bottom: 100px;
 }
 
 .gallery-wrapper {
@@ -560,7 +564,7 @@ legend {
 }
 
 .news {
-  margin-bottom: 148px;
+  margin-bottom: 100px;
 }
 
 .news-wrapper {
@@ -764,7 +768,7 @@ legend {
 }
 
 .question {
-  margin-bottom: 260px;
+  margin-bottom: 200px;
 }
 
 .question-wrapper {
